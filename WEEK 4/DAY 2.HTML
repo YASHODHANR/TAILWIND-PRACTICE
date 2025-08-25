@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS+Tailwind Interactivity</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body>
+    <h1 class="font-bold text-xl underline text-center">Topics:</h1>
+    <ul class="list-disc mx-5 mb-5">
+        <LI>hideen, block, toggle()</LI>
+        <LI>modal, sidebar, dropdown</LI>
+    </ul>
+    <h2 class="text-xl font-bold underline italic mb-5">Example</h2>
+    <button onclick="document.getElementById('menu').classList.toggle('hidden')">Menu
+    </button>
+    <div id="menu" class="hidden bg-gray-200 p-4 mt-2">Sidebar Content</div>
+
+</body>
+</html>
